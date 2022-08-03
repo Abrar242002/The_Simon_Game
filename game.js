@@ -7,7 +7,7 @@ var level = 0;
 
 
 // starts the game when any key is pressed.
-$(document).keydown(function() {
+$(document).click(function() {
 
   if (!started) {
     $("#level-title").text("Level " + level);
